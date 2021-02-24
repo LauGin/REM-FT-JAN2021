@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="css/style.css">   
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- start - header -->
 
-    <header>
+    <header class="container">
         <div>
             <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
         </div>
@@ -23,18 +25,18 @@
             <nav>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
-                <a href=">https://www.ironhack.com/"</a>
+                <a href=">https://www.ironhack.com/">Buy now</a>
             </nav>
         </div>
         <div>
-            <a href="#">Login</a>
-            <a href="#">Icon</a>
+            <a href="#"><i class="far fa-user-circle fa-2x"></i></a>
+            <a href="#"><i class="fas fa-search fa-2x"></i></a>
         </div>
     </header>
     <!-- end - header -->
 
     <!-- start - hero section -->
-    <section id="hero">
+    <section id="hero" class="container">
         <h1>Heading 1</h1>
         <h4> The End</h4>
         <button class="btn-large">This is a button</button>
@@ -42,7 +44,7 @@
     <!-- end - hero section -->
 
     <!-- start - cards -->
-    <section>
+    <section id="card" class="container">
         <!-- start - card 1 -->
         <div class="card">
             <img src="img/pisauikan-7bQXX_WG6O8-unsplash.jpg" alt="">
@@ -87,13 +89,57 @@
 
       <!-- start - contact -->
       <section id="contact">
-          Contact
+        <h3>Let's connect</h3>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label for="name">Email:</label>
+        <input type="text" id="email">
+
+        <br><br>
+
+        <label for="terms">I accept the terms and conditions</label>
+        <input type="checkbox">
+
+        <br><br>
+
+
+        <label for="date">Starting Date</label>
+        <input type="date" id="date">
+
+        <br><br>
+
+        <label for="document">Add your ID</label>
+        <input type="file" id="document">
+
+        <br><br>
+
+        <label for="password">Create a password</label>
+        <input type="passport" id="password">
+
+        <br><br>
+
+        <label for="mobile">Your phone number</label>
+        <input type="tel" id="mobile">
+
+        <br><br>
+
+        <input type="submit" value="Send all this info">
+
+        <br><br>
+
       </section>
       <!-- end - contact -->
 
        <!-- start - footer -->
     </footer>
-Here is the footer
+<p>Follow me</p>
+<i class="fab fa-behance fa-2x"></i>
+<i class="fab fa-instagram fa-2x"></i>
+<i class="fab fa-medium fa-2x"></i>
 </footer>
        <!-- start - footer -->
 
